@@ -1,5 +1,11 @@
 # Geocoding_WHU
-The compiled binaries and datasets for testing, coupled with our work "Fast and accurate SAR geocoding with a plane approximation."
+The tailored sources, compiled binaries and datasets for testing, coupled with our work "Fast and accurate SAR geocoding with a plane approximation."
+
+# Surfing the sources & compiling
+Development environment: Visual Studio 2019 + Windows 10 + CMake + vcpkg
+With vcpkg toolchain selected, the vcpkg.json shall be parsed to install all necessary packages.
+
+Three implementations, the plain forwarding method, Eineder's polynoimal approximation method and ours are provided in the subdirectory 'geocoding'. 
 
 # Testing
 1. Download and unzip the last release with Bandzip; the default Windows zip tools fail to uncompress this file.
