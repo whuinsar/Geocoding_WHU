@@ -1,0 +1,15 @@
+{
+  "dependencies": [
+    "cxxopts",
+    "fmt",
+    "boost-filesystem",
+    "boost-serialization",
+    "eigen3",
+    "gdal",
+    {
+      "name": "tiff",
+      "default-features": false,
+      "features": [ "cxx" ]
+    }
+  ]
+}
