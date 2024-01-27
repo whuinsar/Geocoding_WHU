@@ -3,6 +3,7 @@ The tailored sources, compiled binaries and datasets for testing, coupled with o
 
 # Surfing the sources & compiling
 Development environment: Visual Studio 2019 + Windows 10 + CMake + vcpkg
+
 With vcpkg toolchain selected, the vcpkg.json shall be parsed to install all necessary packages.
 
 Three implementations, the plain forwarding method, Eineder's polynomial approximation method, and ours are provided in the subdirectory 'geocoding.' 
